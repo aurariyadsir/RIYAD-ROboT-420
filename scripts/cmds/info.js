@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const W = 490, H = 840;
-const AVATAR1 = "https://i.imgur.com/5L1We9h.jpeg";
+const AVATAR1 = "https://i.postimg.cc/NMNYHWjf/IMG-20260420-224724-570.jpg";
 const FALLBACK_AVATAR = "https://i.postimg.cc/NMNYHWjf/IMG-20260420-224724-570.jpg"; // fallback if error
 
 function formatUptime(ms) {
@@ -113,7 +113,7 @@ async function drawPage1(ctx) {
   ctx.shadowBlur = 12;
 
   const lines = [
-    "Nickname: DANGER RIYAD ", "Age: 20+", "DOB: 01 Feb 2006*",
+    "Nickname: RIYAD ", "Age: 20+", "DOB: 01 Feb 2006*",
     "Gender: Male", "Religion: Islam", "Nationality: Bangladeshi",
     "Location: Joypurhat ", "Class: Ssc candidate",
     `Time: ${new Date().toLocaleString("en-IN", { timeZone: "Asia/Dhaka" })}`
@@ -137,7 +137,7 @@ module.exports = {
     name: "info",
     aliases: ["in4", "ownerinfo"],
     version: "1.0",
-    author: "CSR TEAM LEADERS",
+    author: "CSR TEAM LEADER",
     countDown: 5,
     role: 0,
     shortDescription: "Owner info",
