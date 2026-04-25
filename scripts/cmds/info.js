@@ -5,7 +5,7 @@ const path = require("path");
 
 const W = 490, H = 840;
 const AVATAR1 = "https://i.imgur.com/5L1We9h.jpeg";
-const FALLBACK_AVATAR = "https://i.ibb.co/MC6bT5V/default-avatar.png"; // fallback if error
+const FALLBACK_AVATAR = "https://i.postimg.cc/NMNYHWjf/IMG-20260420-224724-570.jpg"; // fallback if error
 
 function formatUptime(ms) {
   const totalSeconds = Math.floor(ms / 1000);
@@ -89,7 +89,7 @@ async function drawPage1(ctx) {
   ctx.fillStyle = "#ff99cc";
   ctx.shadowColor = "#ff33aa";
   ctx.shadowBlur = 25;
-  ctx.fillText("ROCKY CHOWDHURY  ", W / 2, 295); // slightly lower
+  ctx.fillText("CSR TEAM LEADERS  ", W / 2, 295); // slightly lower
 
   ctx.font = "italic 20px Arial";
   ctx.fillStyle = "#ff66cc";
@@ -113,9 +113,9 @@ async function drawPage1(ctx) {
   ctx.shadowBlur = 12;
 
   const lines = [
-    "Nickname: Rocky Chowdhury ", "Age: 20+", "DOB: 08 May 2007*",
+    "Nickname: DANGER RIYAD ", "Age: 20+", "DOB: 01 Feb 2006*",
     "Gender: Male", "Religion: Islam", "Nationality: Bangladeshi",
-    "Location: Sreepur ", "Class: Ssc candidate",
+    "Location: Joypurhat ", "Class: Ssc candidate",
     `Time: ${new Date().toLocaleString("en-IN", { timeZone: "Asia/Dhaka" })}`
   ];
   let y = 400;
@@ -137,7 +137,7 @@ module.exports = {
     name: "info",
     aliases: ["in4", "ownerinfo"],
     version: "1.0",
-    author: "Rocky Chowdhury",
+    author: "CSR TEAM LEADERS",
     countDown: 5,
     role: 0,
     shortDescription: "Owner info",
