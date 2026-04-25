@@ -24,9 +24,9 @@
     "61572100874270"
   ],
   "premiumUsers": [
-    "61587834965789",
-    "61587834965789",
-    "61587834965789"
+    "61572100874270",
+    "61572100874270",
+    "61572100874270"
   ],
   "devUsers": [
     "61572100874270",
@@ -38,8 +38,8 @@
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [
-      "61568104507388",
-      "61568104507388",
+      "61572100874270",
+      "61572100874270",
       "1339474141269467"
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
