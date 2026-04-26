@@ -75,7 +75,7 @@ module.exports = {
  name: "help",
  aliases: "menu",
  version: "2.0",
- author: "riyad420",
+ author: "riyad404",
  countDown: 5,
  role: 0,
  shortDescription: { en: "Shows all commands or details." },
